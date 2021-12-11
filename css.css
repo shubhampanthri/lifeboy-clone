@@ -1,0 +1,134 @@
+/* ////////////HTML BODY */
+body{
+    border: solid 10px rgba(0, 0, 0, 0.863);
+}
+
+/* /////////////////////NAV BAR//////////////////////////// */
+#navbarr .btn-close{
+background-color: crimson;
+opacity: 1;
+align-self:flex-end ;
+float: left;
+height: 30px;
+width: 30px;
+}
+.dropdown:hover .dropdown-menu {
+    display:inline-block;
+     margin-top: 0;
+    animation:ease-in-out; 
+    transition: 2s;}
+
+/* /////////////////////CAROUSEL////////////////////////// */
+.slideimg{
+    padding: 5px;
+   width: auto;
+   overflow: hidden; 
+}
+ #carouselExampleIndicators{
+border:20px solid rgb(2, 31, 126);
+  width: auto;
+ margin:0 auto;
+text-align: center; 
+}
+
+/* ///////////////////// OFFCANVAS /////////////////////////*/
+.offcanvas-body ul a:hover{
+    font: 50px ;
+    color: rgb(248, 245, 245);
+    font-family: monospace;
+    background-color: rgb(93, 132, 246);
+    transform: scale(1.05);
+ 
+}
+.offcanvas-body ul li{
+text-decoration: skyblue;
+font-weight: bolder;
+}
+/* ////////////////////////product card/////////////////////*/
+.imgcontainer .aimage img{
+    transform:translateY(-45%);
+ width:100%;
+}
+.imgcontainer  {
+    font-size: 20px;
+   color: rgb(63, 61, 56);
+   font-family: cursive;
+   border: 5px solid;
+    background: linear-gradient(to bottom, #8f3b14 30%, #1c4e08de 80%);
+    padding-top: 120px;
+}
+.imgcontainer div{
+    background-color: #e2231a;  
+    margin-bottom: 100px;
+    opacity: 0.90;
+    transition: 0.4s;
+ }
+.imgcontainer div:hover{
+    opacity: 1;
+transform: scale(1.1);
+background-color: #ff0707e3;  
+
+}
+.imgcontainer .card-body h5{
+    color: rgb(208, 235, 205);
+    font-size: 25px;
+}
+   
+/* ///////////////////////CARD CSS////////////////////////// */
+ 
+.imgcard{
+     background-color: rgb(10, 108, 173);
+     color: white;
+    font-size: large;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 100%;
+    overflow:hidden;
+  padding-top: 20px;
+
+}
+
+.imgcard div{
+    border-bottom-right-radius:10% ;
+    overflow: hidden;
+    transition: .3s;
+    background-color: rgb(5, 5, 85);
+
+}
+.imgcard div:hover{
+transform: scale(1.05);
+}
+
+.imgcard img{
+    border-bottom-right-radius:10% ;
+    transition:  0.3s;    
+transform: scale(1);
+cursor: pointer;
+
+}
+.imgcard img:hover{
+    border-bottom-right-radius:10% ;
+transform: scale(1.17);
+width: auto;
+} 
+.imgcard .card-body a{
+    color: rgb(255, 253, 255);
+    font-size: 25px;   
+}
+.imgcard .card-body h5{
+    color: rgb(208, 235, 205);
+    font-size: 30px;
+}
+/* /////////////FOOTER//////////// */
+.nb-footer{
+    background-color: rgb(14, 12, 12);
+    color: blanchedalmond;
+}
+.nb-footer li:hover{
+    color: hsl(90, 100%, 50%);
+transform: scale(1.01);
+}
+.nb-footer a:hover{
+    color: hsl(90, 100%, 50%);
+transform: scale(1.01);}
+

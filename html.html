@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css.css">
+  </link>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' />
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body class="border border-success">
+  <!-- NAVBAR -->
+  <nav id="navbarr" class="navbar navbar-expand-lg navbar-light bg-light border border-5">
+    <a class="navbar-brand" href="#">
+      <img src="logo.svg" width="175" height="70" class="d-inline-block align-top" alt="">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-start" id="navbarSupportedContent">
+      <div class="offcanvas-header">
+        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body gap-5">
+        <ul class="navbar-nav mr-auto gap-5 ">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HEALTH</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              LIFEBUOY
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">H fOR HANDWASHING</a>
+          </li>
+          <li class="nav-item" style="width:min-content;">
+            <a class="nav-link" href="#">PRACTO TELEHEALTH PARTNERSHIP</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 mt-5"  style="width: auto;overflow: hidden;">
+          <input class="form-control mr-sm-2 " type="search" placeholder="Search Products,Tips.." aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- CAROUSEL -->
+  <div id="carouselExampleIndicators" class="carousel slide row " data-ride="carousel" data-interval="3000">
+
+    <div class="slideimg carousel-inner col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-12">
+      <ol class="carousel-indicators ">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+      </ol>
+      <div class="carousel-item active">
+        <img class="d-block w-100  " src="slide5.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100  " src="slide2.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100  " src="slide3.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100  " src="slide4.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- YOUTUBE VIDEO -->
+   <div class="embed-responsive embed-responsive-16by9" style="height: 350px;;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mhMuZ6DNVq0?controls=0"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <!-- PRODUCTS -->
+  <div class=" imgcontainer container-fluid   justify-content-center  row gap-5 ">
+
+    <div class="productcard card   mt-5 col-6 col-sm-5 col-md-4 col-lg-3 col-xl-3   " style="width: 18rem;">
+      <a class=aimage href="https://www.lifebuoy.in/products/bar-soap.html"><img class="card-img-top responsive"
+          src="soap.webp" alt="bar-soap">
+
+        </img></a>
+      <div class="card-body text-center gap-5">
+        <a href="https://www.lifebuoy.in/products/bar-soap.html">
+          <h5 class="card-title nav-item ">Bar</h5>
+        </a>
+        <a class="card-text nav-link " href="https://www.lifebuoy.in/products/bar-soaphtml">See All Product
+          <code>>></code></a>
+        <hr>
+      </div>
+    </div>
+
+    <div class="card mt-5 col-6 col-sm-5 col-md-4 col-lg-3 col-xl-3   " style="width: 18rem;">
+      <a class=aimage href="https://www.lifebuoy.in/products/hand-wash.html"><img class="card-img-top responsive"
+          src="handwash.webp" alt="Handwash">
+
+        </img></a>
+      <div class="card-body text-center gap-5">
+        <a href="https://www.lifebuoy.in/products/hand-wash.html">
+          <h5 class="card-title nav-item ">Handwash</h5>
+        </a>
+        <a class="card-text nav-link " href="https://www.lifebuoy.in/products/hand-wash.html">See All Product
+          <code>>></code></a>
+        <hr>
+      </div>
+    </div>
+
+    <div class="card   mt-5 col-6 col-sm-5 col-md-4 col-lg-3 col-xl-3   " style="width: 18rem;">
+      <a class=aimage href="https://www.lifebuoy.in/products/sanitizer.html"><img class="card-img-top responsive"
+          src="sanitizer.jpg" alt="sanitizer">
+
+        </img></a>
+      <div class="card-body text-center gap-5">
+        <a href="https://www.lifebuoy.in/products/sanitizer.html">
+          <h5 class="card-title nav-item ">Sanitizer</h5>
+        </a>
+        <a class="card-text nav-link " href="https://www.lifebuoy.in/products/sanitizer.html">See All Product
+          <code>>></code></a>
+        <hr>
+      </div>
+    </div>
+
+    <div class="card   mt-5 col-6 col-sm-5 col-md-4 col-lg-3 col-xl-3   " style="width: 18rem;">
+      <a class=aimage href="https://www.lifebuoy.in/products/body-wash.html"><img class="card-img-top responsive"
+          src="bodywash.webp" alt="body-wash">
+
+        </img></a>
+      <div class="card-body text-center gap-5">
+        <a href="https://www.lifebuoy.in/products/body-wash.html">
+          <h5 class="card-title nav-item ">Bodywash</h5>
+        </a>
+        <a class="card-text nav-link " href="https://www.lifebuoy.in/products/body-wash.html">See All Product
+          <code>>></code></a>
+        <hr>
+      </div>
+    </div>
+
+  </div>
+  <!-- CARD -->
+  <div class="imgcard card-text container-fluid row border border-primary justify-content-center gap-5">
+    <div
+      class="card rounded- border border-primary col-8 col-sm-8 col-md-4 col-lg-4 col-lg-1 justify-content-center responsive"
+      style="width: 18rem;">
+      <img class="card-img-top" src="card1.webp" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-success">CORONAVIRUS</h5>
+        <p class="card-text ">Keep up to date on the coronavirus with Lifebuoy India.</p>
+        <a href="#">
+          <p class="btn btn-primary ">CORONAVIRUS</p>
+        </a>
+      </div>
+    </div>
+    <div class="card border border-primary col-8 col-sm-8 col-md-4 col-lg-4 col-lg-1" style="width: 18rem;">
+      <img class="card-img-top" src="card2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-success">HEALTH & HYGIENE</h5>
+        <p class="card-text">Top Health and Hygiene Tips for Monsoon Season</p>
+        <a href="#">
+          <p class="btn btn-primary text-wrap text-truncate " alt="Top Health and Hygiene Tips for Monsoon Season">Top
+            Health and Hygiene tips...</p>
+        </a>
+      </div>
+    </div>
+    <div class="card border border-primary col-8 col-sm-8 col-md-4 col-lg-4 col-lg-1" style="width: 18rem;">
+      <img class="card-img-top" src="card3.jfif" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-success">H1N1</h5>
+        <p class="card-text style">H1N1 is the very clinical-sounding official name for Swine Flu.</p>
+        <a href="#">
+          <p class="btn btn-primary">H1N1 | LIFEBUOY</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <div>
+    <span class="span-or"></span>
+    <hr class="hr-or">
+    <footer class="nb-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="about">
+              <img src="logo.jfif" class="img-responsive center-block" alt="">
+              <p>Bootstrap Footer example snippets with CSS, Javascript and HTML. Code example of bootstrap-3 footer
+                using HTML, Javascript, jQuery, and CSS. 5 Beautiful and Responsive Footer Templates. Pin a fixed-height
+                footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
+
+              <div class="social-media">
+                <ul class="list-inline">
+                  <li><a href="#navbarr" title="">TWITTER <i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#navbarr" title="">GOOGLE <i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#navbarr" title="">LINKEDIN <i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#navbarr" title="">FACEBOOK <i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-info-single">
+              <h2 class="title">Help Center</h2>
+              <ul class="list-unstyled">
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> How to
+                    Pay</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a>
+                </li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i>
+                    Sitemap</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Delivery
+                    Info</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-info-single">
+              <h2 class="title">Customer information</h2>
+              <ul class="list-unstyled">
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> About
+                    Us</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a>
+                </li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Sell Your
+                    Items</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Contact
+                    Us</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> RSS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-info-single">
+              <h2 class="title">Security & privacy</h2>
+              <ul class="list-unstyled">
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Terms Of
+                    Use</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Privacy
+                    Policy</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Return /
+                    Refund Policy</a></li>
+                <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Store
+                    Locations</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-info-single">
+              <h2 class="title">Payment</h2>
+              <p>Sample HTML page with Twitter's Bootstrap. Code example of Easy Sticky Footer using HTML, Javascript,
+                jQuery, and CSS. This bootstrap tutorial covers all the major elements of responsive</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>Copyright © 2021. lifebuoy.</p>
+            </div>
+            <div class="col-sm-6"></div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
